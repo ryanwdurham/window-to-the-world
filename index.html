@@ -32,11 +32,24 @@
 
     <script>
         const STREAMS = [
-            { url: "https://vjs.zencdn.net/v/oceans.mp4", title: "Deep Ocean", loc: "Global", type: "mp4" },
-            { url: "https://www.youtube-nocookie.com/embed/hVvEISFw9w0", title: "Highlands", loc: "Scotland", type: "yt" },
-            { url: "https://www.youtube-nocookie.com/embed/LXb3EKWsInQ", title: "Jungle", loc: "Costa Rica", type: "yt" },
-            { url: "https://videos.pexels.com/video-files/4763824/4763824-uhd_2560_1440_24fps.mp4", title: "Forest Creek", loc: "Oregon", type: "mp4" }
-        ];
+  // --- THE KNOWN WINNERS ---
+  { url: "https://videos.pexels.com/video-files/4763824/4763824-uhd_2560_1440_24fps.mp4", title: "Forest Creek", loc: "Oregon" },
+  { url: "https://www.youtube-nocookie.com/embed/hVvEISFw9w0", title: "Scottish Highlands", loc: "Scotland", isYoutube: true },
+  { url: "https://www.youtube-nocookie.com/embed/LXb3EKWsInQ", title: "Costa Rica Jungle", loc: "Central America", isYoutube: true },
+
+  // --- NEW STATIC LINKS (Non-Pexels, Non-YouTube) ---
+  { url: "https://vjs.zencdn.net/v/oceans.mp4", title: "Deep Ocean", loc: "Global" },
+  { url: "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_1MB.mp4", title: "Green Valley", loc: "CGI Park" },
+  { url: "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", title: "Nature Test", loc: "Sample" },
+  
+  // --- ALTERNATE PEXELS LINKS (Lower resolution for better loading) ---
+  { url: "https://player.vimeo.com/external/370364137.sd.mp4?s=99966E0A6D02A09F6E8640E6983A85B84A5C1F10&profile_id=164", title: "Tokyo Night", loc: "Japan" },
+  { url: "https://player.vimeo.com/external/517089491.sd.mp4?s=AF259795C64C560E53B78736B04B9B64D9A477&profile_id=164", title: "Snowy Forest", loc: "Norway" },
+  { url: "https://player.vimeo.com/external/434045526.sd.mp4?s=D1849E9E036F526F76E367C2F6E6C51400A382A3&profile_id=164", title: "Tropical Beach", loc: "Thailand" },
+  
+  // --- ARCHIVE.ORG LINKS (Very stable, very open) ---
+  { url: "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4", title: "The Meadow", loc: "Open Source" }
+];
 
         let idx = 0;
 
