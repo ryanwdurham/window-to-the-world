@@ -2,7 +2,9 @@
 
 Window to the World is a curated visual and auditory experience designed for focus, relaxation, and digital escapism. It transforms your browser into a portal, offering seamless loops of global landscapes paired with a multi-track ambient soundscape.
 
-📸 Demo watch it here:  https://www.loom.com/share/8dd125156f8342529fd8e9b10cfb70aa
+
+[Click here to watch the project demo video](https://www.loom.com/share/8dd125156f8342529fd8e9b10cfb70aa)
+
 
 🚀 Features Curated Global Portals: 5 high-definition video streams including the Scottish Highlands, Oregon Forests, and Costa Rican Jungles.
 
