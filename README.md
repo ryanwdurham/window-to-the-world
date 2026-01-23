@@ -2,6 +2,8 @@
 
 Window to the World is a curated visual and auditory experience designed for focus, relaxation, and digital escapism. It transforms your browser into a portal, offering seamless loops of global landscapes paired with a multi-track ambient soundscape.
 
+This is my first project built with React.
+
 
 [Click here to watch the project demo video](https://www.loom.com/share/8dd125156f8342529fd8e9b10cfb70aa)
 
